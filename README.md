@@ -1,3 +1,4 @@
-# Web-Application-Development
+## Demo app to work with AJAX, JSON and XML files
 
-College Project 
+1. Run "npm install"
+2. Run "npm start"
