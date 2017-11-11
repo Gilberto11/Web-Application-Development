@@ -3,6 +3,7 @@ var http = require('http'),
     express = require('express'),
     bodyParser = require('body-parser'),
     fs = require('fs'),
+    libxslt = require('libxslt');
     js2xmlparser = require('js2xmlparser'),
     libxslt = require('libxslt');
 

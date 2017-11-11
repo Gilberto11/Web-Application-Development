@@ -20,24 +20,24 @@
 			<body>
 				<table>
 					<tr>
-						<th>Country code</th>
 						<th>Name</th>
-						<th>Capital</th>
-						<th>Phone code</th>
+						<th>Cities</th>
+						<th>Cities</th>
+						<th>Cities</th>
 					</tr>
-					<xsl:for-each select="countries/country">
+					<xsl:for-each select="southAmerica/country">
 							<tr>
-								<td>
-									<xsl:value-of select="Country_code"/>
-								</td>
 								<td>
 									<xsl:value-of select="Name"/>
 								</td>
 								<td>
-									<xsl:value-of select="Capital"/>
+									<xsl:value-of select="cities"/>
 								</td>
 								<td>
-									<xsl:value-of select="Phone_code"/>
+									<xsl:value-of select="cities"/>
+								</td>
+								<td>
+									<xsl:value-of select="cities"/>
 								</td>
 							</tr>
 					</xsl:for-each>
