@@ -2,15 +2,15 @@
 <southAmerica>
     <country>
         <Name>Argentina</Name>
-        <cities>Buenos Aires</cities>
-        <cities>Bariloche</cities>
-        <cities>Cordoba</cities>
+        <cities1>Buenos Aires</cities1>
+        <cities2>Bariloche</cities2>
+        <cities3>Cordoba</cities3>
     </country>
     <country>
         <Name>Bolivia</Name>
-        <cities>La Paz</cities>
-        <cities>Cochabamba</cities>
-        <cities>Oruro</cities>
+        <cities1>La Paz</cities1>
+        <cities2>Cochabamba</cities2>
+        <cities3>Oruro</cities3>
     </country>
 
 

@@ -31,13 +31,13 @@
 									<xsl:value-of select="Name"/>
 								</td>
 								<td>
-									<xsl:value-of select="cities"/>
+									<xsl:value-of select="cities1"/>
 								</td>
 								<td>
-									<xsl:value-of select="cities"/>
+									<xsl:value-of select="cities2"/>
 								</td>
 								<td>
-									<xsl:value-of select="cities"/>
+									<xsl:value-of select="cities3"/>
 								</td>
 							</tr>
 					</xsl:for-each>
