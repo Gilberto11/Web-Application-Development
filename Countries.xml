@@ -6,6 +6,12 @@
         <cities>Bariloche</cities>
         <cities>Cordoba</cities>
     </country>
+    <country>
+        <Name>Bolivia</Name>
+        <cities>La Paz</cities>
+        <cities>Cochabamba</cities>
+        <cities>Oruro</cities>
+    </country>
 
 
 </southAmerica>
