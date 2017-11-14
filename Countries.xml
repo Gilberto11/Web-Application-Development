@@ -6,7 +6,7 @@
         <cities2>Bariloche</cities2>
         <cities3>Cordoba</cities3>
         <currency>Pesos Argentino</currency>
-        <airfare>€750<airfare>
+        <airfare>€750</airfare>
         <busfare>€15</busfare>
         <zooticket>€18</zooticket>
     </country>
@@ -16,7 +16,7 @@
         <cities2>Cochabamba</cities2>
         <cities3>Oruro</cities3>
         <currency>Boliviano</currency>
-        <airfare>€850<airfare>
+        <airfare>€850</airfare>
         <busfare>€10</busfare>
         <zooticket>€13</zooticket>
      </country>
@@ -26,7 +26,7 @@
         <cities2>Fortaleza</cities2>
         <cities3>Rio de Janeiro</cities3>
         <currency>Real Brasileño</currency>
-        <airfare>€680<airfare>
+        <airfare>€680</airfare>
         <busfare>€20</busfare>
         <zooticket>€15</zooticket>
     </country>
@@ -36,7 +36,7 @@
         <cities2>Salto</cities2>
         <cities3>Cuidad de la Costa</cities3>
         <currency>Peso Uruguayo</currency>
-        <airfare>€880<airfare>
+        <airfare>€880</airfare>
         <busfare>€18</busfare>
         <zooticket>€18</zooticket>
     </country>
@@ -46,7 +46,7 @@
         <cities2>Cuzco</cities2>
         <cities3>Aguas Verdes</cities3>
         <currency>Sol</currency>
-        <airfare>€450<airfare>
+        <airfare>€450</airfare>
         <busfare>€12</busfare>
         <zooticket>€10</zooticket>
     </country>
@@ -56,7 +56,7 @@
         <cities2>Vina del Mar</cities2>
         <cities3>Temuco</cities3>
         <currency>Peso Chileno</currency>
-        <airfare>€800<airfare>
+        <airfare>€800</airfare>
         <busfare>€20</busfare>
         <zooticket>€20</zooticket>
     </country>
@@ -66,7 +66,7 @@
         <cities2>Medellin</cities2>
         <cities3>Pereira</cities3>
         <currency>Peso Colombiano</currency>
-        <airfare>€900<airfare>
+        <airfare>€900</airfare>
         <busfare>€15</busfare>
         <zooticket>€12</zooticket>    
     </country>
@@ -76,7 +76,7 @@
         <cities2>Guayaquil</cities2>
         <cities3>Cuenca</cities3>
         <currency>Dolar</currency>
-        <airfare>€9500<airfare>
+    <airfare>€950</airfare>
         <busfare>€20</busfare>
         <zooticket>€15</zooticket>
     </country>
@@ -86,7 +86,7 @@
         <cities2>Maracaibo</cities2>
         <cities3>Valencia</cities3>
         <currency>Bolivar</currency>
-        <airfare>€950<airfare>
+        <airfare>€950</airfare>
         <busfare>€20</busfare>
         <zooticket>€25</zooticket>
     </country>
@@ -96,7 +96,7 @@
         <cities2>Linden</cities2>
         <cities3>Mahaica</cities3>
         <currency>Dolar Guyanes</currency>
-        <airfare>€1,200<airfare>
+        <airfare>€1,200</airfare>
         <busfare>€25</busfare>
         <zooticket>€25</zooticket>
     </country>
@@ -106,7 +106,7 @@
         <cities2>Leydorp</cities2>
         <cities3>Moengo</cities3>
         <currency>Dolar Surinames</currency>
-        <airfare>€1,200<airfare>
+       <airfare>€1,200</airfare>
         <busfare>€30</busfare>
         <zooticket>€25</zooticket>
     </country>
@@ -116,7 +116,7 @@
         <cities2>Cuidad del Este</cities2>
         <cities3>Luque</cities3>
         <currency>Guarani</currency>
-        <airfare>€1,300<airfare>
+        <airfare>€1,300</airfare>
         <busfare>€25</busfare>
         <zooticket>€25</zooticket>
     </country>
@@ -126,7 +126,7 @@
         <cities2>Corozal</cities2>
         <cities3>Dangiga</cities3>
         <currency>Dolar</currency>
-        <airfare>€750<airfare>
+        <airfare>€750</airfare>
         <busfare>€15</busfare>
         <zooticket>€15</zooticket>
     </country>
@@ -136,7 +136,7 @@
         <cities2>Paraiso</cities2>
         <cities3>Puntarenas</cities3>
         <currency>Colon</currency>
-        <airfare>€670<airfare>
+        <airfare>€670</airfare>
         <busfare>€20</busfare>
         <zooticket>€15</zooticket>
     </country>
@@ -146,7 +146,7 @@
         <cities2>Mejicanos</cities2>
         <cities3>Apopa</cities3>
         <currency>Dolar USD</currency>
-        <airfare>€700<airfare>
+        <airfare>€700</airfare>
         <busfare>€12</busfare>
         <zooticket>€15</zooticket>
     </country>
@@ -156,7 +156,7 @@
         <cities2>Peten</cities2>
         <cities3>Solola</cities3>
         <currency>Quetzal GTQ</currency>
-        <airfare>€800<airfare>
+        <airfare>€800</airfare>
         <busfare>€15</busfare>
         <zooticket>€12</zooticket>
     </country>
@@ -166,7 +166,7 @@
         <cities2>Leon</cities2>
         <cities3>Granada</cities3>
         <currency>Cordoba NIO</currency>
-        <airfare>€860<airfare>
+        <airfare>€860</airfare>
         <busfare>€25</busfare>
         <zooticket>€18</zooticket>
     </country>
@@ -176,10 +176,8 @@
         <cities2>Colon</cities2>
         <cities3>Herrera</cities3>
         <currency>Dolar</currency>
-       <airfare>€790<airfare>
+        <airfare>€790</airfare>
         <busfare>€20</busfare>
         <zooticket>€18</zooticket>
     </country>
-
-
 </southAmerica>

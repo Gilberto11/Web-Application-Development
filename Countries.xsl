@@ -25,9 +25,9 @@
 						<th>Cities</th>
 						<th>Cities</th>
 						<th>Currency</th>
-						<th>Airfare from Ireland</th>
-        		<th>Bus City Tour</th>
-						<th>Zoo Ticket Entrance</th>	
+						<th>Airfare from Ire</th>
+        		<th>BusCityTour</th>
+						<th>ZooTicket Entrance</th>	
 					</tr>
 					<xsl:for-each select="southAmerica/country">
 							<tr>
