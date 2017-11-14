@@ -84,6 +84,48 @@
         <cities3>Luque</cities3>
         <currency>Guarani</currency>
     </country>
+  <country>
+        <Name>Belice</Name>
+        <cities1>Belmopan</cities1>
+        <cities2>Corozal</cities2>
+        <cities3>Dangiga</cities3>
+        <currency>Dolar</currency>
+    </country>
+  <country>
+        <Name>Costa Rica</Name>
+        <cities1>San Jose</cities1>
+        <cities2>Paraiso</cities2>
+        <cities3>Puntarenas</cities3>
+        <currency>Colon</currency>
+    </country>
+  <country>
+        <Name>El Salvador</Name>
+        <cities1>San Salvador</cities1>
+        <cities2>Mejicanos</cities2>
+        <cities3>Apopa</cities3>
+        <currency>Dolar USD</currency>
+    </country>
+  <country>
+        <Name>Guatemala</Name>
+        <cities1>Guatemala</cities1>
+        <cities2>Peten</cities2>
+        <cities3>Solola</cities3>
+        <currency>Quetzal GTQ</currency>
+    </country>
+  <country>
+        <Name>Nicaragua</Name>
+        <cities1>Managua</cities1>
+        <cities2>Leon</cities2>
+        <cities3>Granada</cities3>
+        <currency>Cordoba NIO</currency>
+    </country>
+  <country>
+        <Name>Panama</Name>
+        <cities1>Panama</cities1>
+        <cities2>Colon</cities2>
+        <cities3>Herrera</cities3>
+        <currency>Dolar</currency>
+    </country>
 
 
 </southAmerica>
