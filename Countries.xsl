@@ -34,14 +34,9 @@
 								<td>
 									<xsl:value-of select="Name"/>
 								</td>
+								<xsl:for-each select="/city">
 								<td>
-									<xsl:value-of select="cities1"/>
-								</td>
-								<td>
-									<xsl:value-of select="cities2"/>
-								</td>
-								<td>
-									<xsl:value-of select="cities3"/>
+									<xsl:value-of select="cities"/>
 								</td>
 								<td>
 									<xsl:value-of select="currency"/>
