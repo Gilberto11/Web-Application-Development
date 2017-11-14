@@ -25,6 +25,9 @@
 						<th>Cities</th>
 						<th>Cities</th>
 						<th>Currency</th>
+						<th>Airfare from Ireland</th>
+        		<th>Bus City Tour</th>
+						<th>Zoo Ticket Entrance</th>	
 					</tr>
 					<xsl:for-each select="southAmerica/country">
 							<tr>
@@ -43,6 +46,15 @@
 								<td>
 									<xsl:value-of select="currency"/>
 								</td>
+								<td>
+									<xsl:value-of select="airfare"/>
+								</td>
+								<td>
+									<xsl:value-of select="busfare"/>
+								</td>
+								<td>
+									<xsl:value-of select="zooticket"/>
+								</td>								
 							</tr>
 					</xsl:for-each>
 				</table>
