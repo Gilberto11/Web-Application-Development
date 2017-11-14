@@ -21,9 +21,9 @@
 				<table>
 					<tr>
 						<th>Name</th>
-						<th>Cities</th>
-						<th>Cities</th>
-						<th>Cities</th>
+						<th>City</th>
+						<th>City</th>
+						<th>City</th>
 						<th>Currency</th>
 						<th>Airfare from Ire</th>
         		<th>BusCityTour</th>
@@ -34,22 +34,23 @@
 								<td>
 									<xsl:value-of select="Name"/>
 								</td>
-								<xsl:for-each select="/city">
-								<td>
-									<xsl:value-of select="cities"/>
-								</td>
-								<td>
-									<xsl:value-of select="currency"/>
-								</td>
-								<td>
-									<xsl:value-of select="airfare"/>
-								</td>
-								<td>
-									<xsl:value-of select="busfare"/>
-								</td>
-								<td>
-									<xsl:value-of select="zooticket"/>
-								</td>								
+								<xsl:for-each select="city">
+									<td>
+										<xsl:value-of select="."/>
+									</td>
+	<!-- 								<td>
+										<xsl:value-of select="currency"/>
+									</td> -->
+									<td>
+										<xsl:value-of select="airfare"/>
+									</td>
+									<td>
+										<xsl:value-of select="busfare"/>
+									</td>
+									<td>
+										<xsl:value-of select="zooticket"/>
+									</td>								
+								</xsl:for-each>	
 							</tr>
 					</xsl:for-each>
 				</table>
