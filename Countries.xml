@@ -5,12 +5,84 @@
         <cities1>Buenos Aires</cities1>
         <cities2>Bariloche</cities2>
         <cities3>Cordoba</cities3>
+        <currency>Pesos Argentino</currency>
     </country>
     <country>
         <Name>Bolivia</Name>
         <cities1>La Paz</cities1>
         <cities2>Cochabamba</cities2>
         <cities3>Oruro</cities3>
+      <currency>Boliviano</currency>
+    </country>
+   <country>
+        <Name>Brasil</Name>
+        <cities1>Brasilia</cities1>
+        <cities2>Fortaleza</cities2>
+        <cities3>Rio de Janeiro</cities3>
+        <currency>Real Brasileño</currency>
+    </country>
+ <country>
+        <Name>Uruguay</Name>
+        <cities1>Montevideo</cities1>
+        <cities2>Salto</cities2>
+        <cities3>Cuidad de la Costa</cities3>
+        <currency>Peso Uruguayo</currency>
+    </country>
+ <country>
+        <Name>Peru</Name>
+        <cities1>Lima</cities1>
+        <cities2>Cuzco</cities2>
+        <cities3>Aguas Verdes</cities3>
+        <currency>Sol</currency>
+    </country>
+ <country>
+        <Name>Chile</Name>
+        <cities1>Santiago</cities1>
+        <cities2>Vina del Mar</cities2>
+        <cities3>Temuco</cities3>
+        <currency>Peso Chileno</currency>
+    </country>
+  <country>
+        <Name>Colombia</Name>
+        <cities1>Bogota</cities1>
+        <cities2>Medellin</cities2>
+        <cities3>Pereira</cities3>
+        <currency>Peso Colombiano</currency>
+    </country>
+  <country>
+        <Name>Ecuador</Name>
+        <cities1>Quito</cities1>
+        <cities2>Guayaquil</cities2>
+        <cities3>Cuenca</cities3>
+        <currency>Dolar</currency>
+    </country>
+  <country>
+        <Name>Venezuela</Name>
+        <cities1>Caracas</cities1>
+        <cities2>Maracaibo</cities2>
+        <cities3>Valencia</cities3>
+        <currency>Bolivar</currency>
+    </country>
+  <country>
+        <Name>Guyana</Name>
+        <cities1>Georgetown</cities1>
+        <cities2>Linden</cities2>
+        <cities3>Mahaica</cities3>
+        <currency>Dolar Guyanes</currency>
+    </country>
+  <country>
+        <Name>Surinam</Name>
+        <cities1>Paramaribo</cities1>
+        <cities2>Leydorp</cities2>
+        <cities3>Moengo</cities3>
+        <currency>Dolar Surinames</currency>
+    </country>
+  <country>
+        <Name>Paraguay</Name>
+        <cities1>Asuncion</cities1>
+        <cities2>Cuidad del Este</cities2>
+        <cities3>Luque</cities3>
+        <currency>Guarani</currency>
     </country>
 
 

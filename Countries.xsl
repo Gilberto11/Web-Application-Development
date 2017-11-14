@@ -24,6 +24,7 @@
 						<th>Cities</th>
 						<th>Cities</th>
 						<th>Cities</th>
+						<th>Currency</th>
 					</tr>
 					<xsl:for-each select="southAmerica/country">
 							<tr>
@@ -38,6 +39,9 @@
 								</td>
 								<td>
 									<xsl:value-of select="cities3"/>
+								</td>
+								<td>
+									<xsl:value-of select="currency"/>
 								</td>
 							</tr>
 					</xsl:for-each>
