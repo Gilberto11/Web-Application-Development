@@ -3,59 +3,59 @@
     <country>
         <Name>Argentina</Name>
         <currency>Argentinian Pesos</currency>
-        <city>Buenos Aires
+            <city>Buenos Aires
+            </city>
                 <airfare>€750</airfare>
                 <busfare>€15</busfare>
                 <zooticket>€18</zooticket>
-        </city>
             <city>Bariloche
+            </city>
                 <airfare>€750</airfare>
                 <busfare>€15</busfare>
                 <zooticket>€18</zooticket>
-        </city>
           <city>Cordoba
+          </city>
                 <airfare>€750</airfare>
                 <busfare>€15</busfare>
                 <zooticket>€18</zooticket>
-        </city>
     </country>
     <country>
         <Name>Bolivia</Name>
         <currency>Boliviano</currency>
             <city>La Paz
+            </city>
                 <airfare>€750</airfare>
                 <busfare>€15</busfare>
                 <zooticket>€18</zooticket>
-            </city>
             <city>Cochabamba
+            </city>
                 <airfare>€750</airfare>
                 <busfare>€15</busfare>
                 <zooticket>€18</zooticket>
-            </city>
             <city>Oruro
+            </city>
                 <airfare>€850</airfare>
                 <busfare>€10</busfare>
                 <zooticket>€13</zooticket>
-            </city>
      </country>
    <country>
         <Name>Brasil</Name>
         <currency>Brazilian Reais</currency>
             <city>Brasilia
+            </city>
                 <airfare>€850</airfare>
                 <busfare>€10</busfare>
                 <zooticket>€13</zooticket>
-            </city>
             <city>Fortaleza
+            </city>
                 <airfare>€850</airfare>
                 <busfare>€10</busfare>
                 <zooticket>€13</zooticket>
-            </city>
             <city>Rio de Janeiro
+            </city>
                 <airfare>€680</airfare>
                 <busfare>€20</busfare>
                 <zooticket>€15</zooticket>
-            </city>
     </country>
  <country>
         <Name>Uruguay</Name>
@@ -340,5 +340,6 @@
                 <airfare>€790</airfare>
                 <busfare>€20</busfare>
                 <zooticket>€18</zooticket>
+            </city>
     </country>
 </southAmerica>
