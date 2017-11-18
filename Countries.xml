@@ -61,96 +61,96 @@
         <Name>Uruguay</Name>
         <currency>Uruguayan Peso</currency>
             <city>Montevideo
+            </city>
                 <airfare>€680</airfare>
                 <busfare>€20</busfare>
                 <zooticket>€15</zooticket>
-            </city>
             <city>Salto
+            </city>
                 <airfare>€680</airfare>
                 <busfare>€20</busfare>
                 <zooticket>€15</zooticket>
-            </city>
             <city>Cuidad de la Costa
+            </city>
                 <airfare>€680</airfare>
                 <busfare>€20</busfare>
                 <zooticket>€15</zooticket>
-            </city>
     </country>
  <country>
         <Name>Peru</Name>
         <currency>Sol</currency>
             <city>Lima
+            </city>
                 <airfare>€450</airfare>
                 <busfare>€12</busfare>
                 <zooticket>€10</zooticket> 
-            </city> 
             <city>Cuzco
+            </city>
                 <airfare>€450</airfare>
                 <busfare>€12</busfare>
-                <zooticket>€10</zooticket> 
-            </city> 
+                <zooticket>€10</zooticket>  
             <city>Aguas Verdes
+            </city>
                 <airfare>€450</airfare>
                 <busfare>€12</busfare>
                 <zooticket>€10</zooticket>
-            </city> 
     </country>
  <country>
         <Name>Chile</Name>
         <currency>Chilean Peso</currency>
             <city>Santiago
+            </city>
                 <airfare>€800</airfare>
                 <busfare>€20</busfare>
                 <zooticket>€20</zooticket>
-            </city>
             <city>Vina del Mar
+            </city>
                 <airfare>€800</airfare>
                 <busfare>€20</busfare>
                 <zooticket>€20</zooticket>
-            </city>
             <city>Temuco
+            </city>
                 <airfare>€800</airfare>
                 <busfare>€20</busfare>
                 <zooticket>€20</zooticket>
-            </city>
     </country>
   <country>
         <Name>Colombia</Name>
         <currency>Peso Colombiano</currency>
             <city>Bogota
+            </city>
                 <airfare>€900</airfare>
                 <busfare>€15</busfare>
                 <zooticket>€12</zooticket>
-            </city>
             <city>Medellin
+            </city>
                 <airfare>€900</airfare>
                 <busfare>€15</busfare>
                 <zooticket>€12</zooticket>
-            </city>
             <city>Pereira
+            </city>
                 <airfare>€900</airfare>
                 <busfare>€15</busfare>
                 <zooticket>€12</zooticket> 
-            </city> 
     </country>
   <country>
         <Name>Ecuador</Name>
         <currency>Dolar</currency>
             <city>Quito
+            </city>
                 <airfare>€900</airfare>
                 <busfare>€15</busfare>
                 <zooticket>€12</zooticket>
-            </city>
             <city>Guayaquil
+            </city>
                 <airfare>€900</airfare>
                 <busfare>€15</busfare>
                 <zooticket>€12</zooticket>
-            </city>
             <city>Cuenca
+            </city>
                 <airfare>€900</airfare>
                 <busfare>€15</busfare>
                 <zooticket>€12</zooticket>
-            </city>
     </country>
   <country>
         <Name>Venezuela</Name>
