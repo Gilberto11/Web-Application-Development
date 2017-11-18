@@ -38,19 +38,19 @@
 									<td>
 										<xsl:value-of select="."/>
 									</td>
-	<!-- 								<td>
-										<xsl:value-of select="currency"/>
-									</td> -->
-									<td>
-										<xsl:value-of select="airfare"/>
-									</td>
-									<td>
-										<xsl:value-of select="busfare"/>
-									</td>
-									<td>
-										<xsl:value-of select="zooticket"/>
-									</td>								
-								</xsl:for-each>	
+								</xsl:for-each>
+								<td>
+									<xsl:value-of select="currency"/>
+								</td>
+								<td>
+									<xsl:value-of select="airfare"/>
+								</td>
+								<td>
+									<xsl:value-of select="busfare"/>
+								</td>
+								<td>
+									<xsl:value-of select="zooticket"/>
+								</td>								
 							</tr>
 					</xsl:for-each>
 				</table>
