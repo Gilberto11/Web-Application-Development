@@ -156,190 +156,190 @@
         <Name>Venezuela</Name>
         <currency>Bolivar</currency>
             <city>Caracas
+            </city>
                 <airfare>€950</airfare>
                 <busfare>€20</busfare>
                 <zooticket>€25</zooticket>
-            </city>
             <city>Maracaibo
+            </city>
                 <airfare>€950</airfare>
                 <busfare>€20</busfare>
                 <zooticket>€25</zooticket>
-            </city>
             <city>Valencia
+            </city>
                 <airfare>€950</airfare>
                 <busfare>€20</busfare>
                 <zooticket>€25</zooticket>
-            </city>
     </country>
   <country>
         <Name>Guyana</Name>
         <currency>Dolar Guyanes</currency>
             <city>Georgetown
+            </city>
                 <airfare>€950</airfare>
                 <busfare>€20</busfare>
                 <zooticket>€25</zooticket>
-            </city>
             <city>Linden
+            </city>
                 <airfare>€950</airfare>
                 <busfare>€20</busfare>
                 <zooticket>€25</zooticket>
-            </city>
             <city>Mahaica
+            </city>
                 <airfare>€950</airfare>
                 <busfare>€20</busfare>
                 <zooticket>€25</zooticket>
-            </city>
     </country>
   <country>
         <Name>Surinam</Name>
         <currency>Dolar Surinames</currency>
             <city>Paramaribo
+            </city>
                 <airfare>€1,200</airfare>
                 <busfare>€30</busfare>
                 <zooticket>€25</zooticket>
-            </city>
             <city>Leydorp
+            </city>
                 <airfare>€1,200</airfare>
                 <busfare>€30</busfare>
                 <zooticket>€25</zooticket>
-            </city>
             <city>Moengo
+            </city>
                 <airfare>€1,200</airfare>
                 <busfare>€30</busfare>
                 <zooticket>€25</zooticket>
-            </city>
     </country>
   <country>
         <Name>Paraguay</Name>
         <currency>Guarani</currency>
             <city>Asuncion
+            </city>
                 <airfare>€1,300</airfare>
                 <busfare>€25</busfare>
                 <zooticket>€25</zooticket>
-            </city>
             <city>Cuidad del Este
+            </city>
                 <airfare>€1,300</airfare>
                 <busfare>€25</busfare>
                 <zooticket>€25</zooticket>
-            </city>
             <city>Luque
+            </city>
                 <airfare>€1,300</airfare>
                 <busfare>€25</busfare>
                 <zooticket>€25</zooticket>
-            </city>
     </country>
   <country>
         <Name>Belice</Name>
         <currency>Dolar</currency>
             <city>Belmopan
+            </city>
                 <airfare>€750</airfare>
                 <busfare>€15</busfare>
                 <zooticket>€15</zooticket>
-            </city>
             <city>Corozal
+            </city>
                 <airfare>€750</airfare>
                 <busfare>€15</busfare>
                 <zooticket>€15</zooticket>
-            </city>
             <city>Dangiga
+            </city>
                 <airfare>€750</airfare>
                 <busfare>€15</busfare>
                 <zooticket>€15</zooticket>
-            </city>
     </country>
   <country>
         <Name>Costa Rica</Name>
         <currency>Colon</currency>
             <city>San Jose
+            </city>
                 <airfare>€670</airfare>
                 <busfare>€20</busfare>
                 <zooticket>€15</zooticket>
-            </city>
             <city>Paraiso
+            </city>
                 <airfare>€670</airfare>
                 <busfare>€20</busfare>
                 <zooticket>€15</zooticket>
-            </city>
             <city>Puntarenas
+            </city>
                 <airfare>€670</airfare>
                 <busfare>€20</busfare>
                 <zooticket>€15</zooticket>
-            </city>
     </country>
   <country>
         <Name>El Salvador</Name>
         <currency>Dolar USD</currency>
             <city>San Salvador
+            </city>
                 <airfare>€700</airfare>
                 <busfare>€12</busfare>
                 <zooticket>€15</zooticket>
-            </city>
             <city>Mejicanos
+            </city>
                 <airfare>€700</airfare>
                 <busfare>€12</busfare>
                 <zooticket>€15</zooticket>
-            </city>
             <city>Apopa
+            </city>
                 <airfare>€700</airfare>
                 <busfare>€12</busfare>
                 <zooticket>€15</zooticket>
-            </city>
     </country>
   <country>
         <Name>Guatemala</Name>
         <currency>Quetzal GTQ</currency>
             <city>Guatemala
+            </city>
                 <airfare>€800</airfare>
                 <busfare>€15</busfare>
                 <zooticket>€12</zooticket>
-            </city>
             <city>Peten
+            </city>
                 <airfare>€800</airfare>
                 <busfare>€15</busfare>
                 <zooticket>€12</zooticket>
-            </city>
             <city>Solola
+            </city>
                 <airfare>€800</airfare>
                 <busfare>€15</busfare>
                 <zooticket>€12</zooticket>
-            </city>
     </country>
   <country>
         <Name>Nicaragua</Name>
         <currency>Cordoba NIO</currency>
             <city>Managua
+            </city>
                 <airfare>€860</airfare>
                 <busfare>€25</busfare>
                 <zooticket>€18</zooticket>
-            </city>
             <city>Leon
+            </city>
                 <airfare>€860</airfare>
                 <busfare>€25</busfare>
                 <zooticket>€18</zooticket>
-            </city>
             <city>Granada
+            </city>
                 <airfare>€860</airfare>
                 <busfare>€25</busfare>
                 <zooticket>€18</zooticket>
-            </city>
     </country>
   <country>
         <Name>Panama</Name>
         <currency>Dolar</currency>
             <city>Panama
+            </city>
                 <airfare>€790</airfare>
                 <busfare>€20</busfare>
                 <zooticket>€18</zooticket>
-            </city>
             <city>Colon
+            </city>
                 <airfare>€790</airfare>
                 <busfare>€20</busfare>
                 <zooticket>€18</zooticket>
-            </city>
             <city>Herrera
+            </city>
                 <airfare>€790</airfare>
                 <busfare>€20</busfare>
                 <zooticket>€18</zooticket>
-            </city>
     </country>
 </southAmerica>
