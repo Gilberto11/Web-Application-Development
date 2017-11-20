@@ -1,492 +1,491 @@
 {
-  "southAmerica": {
-    "country": [
+      "country": [
       {
         "Name": "Argentina",
         "currency": "Argentinian Pesos",
         "city": [
-          {
-            "#text": "Buenos Aires
-                ",
-            "airfare": "€750",
-            "busfare": "€15",
-            "zooticket": "€18"
-          },
-          {
-            "#text": "Bariloche
-                ",
-            "airfare": "€750",
-            "busfare": "€15",
-            "zooticket": "€18"
-          },
-          {
-            "#text": "Cordoba
-                ",
-            "airfare": "€750",
-            "busfare": "€15",
-            "zooticket": "€18"
-          }
+          "Buenos Aires
+            ",
+          "Bariloche
+            ",
+          "Cordoba
+          "
+        ],
+        "airfare": [
+          "€750",
+          "€750",
+          "€750"
+        ],
+        "busfare": [
+          "€15",
+          "€15",
+          "€15"
+        ],
+        "zooticket": [
+          "€18",
+          "€18",
+          "€18"
         ]
       },
       {
         "Name": "Bolivia",
         "currency": "Boliviano",
         "city": [
-          {
-            "#text": "La Paz
-                ",
-            "airfare": "€750",
-            "busfare": "€15",
-            "zooticket": "€18"
-          },
-          {
-            "#text": "Cochabamba
-                ",
-            "airfare": "€750",
-            "busfare": "€15",
-            "zooticket": "€18"
-          },
-          {
-            "#text": "Oruro
-                ",
-            "airfare": "€850",
-            "busfare": "€10",
-            "zooticket": "€13"
-          }
+          "La Paz
+            ",
+          "Cochabamba
+            ",
+          "Oruro
+            "
+        ],
+        "airfare": [
+          "€750",
+          "€750",
+          "€850"
+        ],
+        "busfare": [
+          "€15",
+          "€15",
+          "€10"
+        ],
+        "zooticket": [
+          "€18",
+          "€18",
+          "€13"
         ]
       },
       {
         "Name": "Brasil",
         "currency": "Brazilian Reais",
         "city": [
-          {
-            "#text": "Brasilia
-                ",
-            "airfare": "€850",
-            "busfare": "€10",
-            "zooticket": "€13"
-          },
-          {
-            "#text": "Fortaleza
-                ",
-            "airfare": "€850",
-            "busfare": "€10",
-            "zooticket": "€13"
-          },
-          {
-            "#text": "Rio de Janeiro
-                ",
-            "airfare": "€680",
-            "busfare": "€20",
-            "zooticket": "€15"
-          }
+          "Brasilia
+            ",
+          "Fortaleza
+            ",
+          "Rio de Janeiro
+            "
+        ],
+        "airfare": [
+          "€850",
+          "€850",
+          "€680"
+        ],
+        "busfare": [
+          "€10",
+          "€10",
+          "€20"
+        ],
+        "zooticket": [
+          "€13",
+          "€13",
+          "€15"
         ]
       },
       {
         "Name": "Uruguay",
         "currency": "Uruguayan Peso",
         "city": [
-          {
-            "#text": "Montevideo
-                ",
-            "airfare": "€680",
-            "busfare": "€20",
-            "zooticket": "€15"
-          },
-          {
-            "#text": "Salto
-                ",
-            "airfare": "€680",
-            "busfare": "€20",
-            "zooticket": "€15"
-          },
-          {
-            "#text": "Cuidad de la Costa
-                ",
-            "airfare": "€680",
-            "busfare": "€20",
-            "zooticket": "€15"
-          }
+          "Montevideo
+            ",
+          "Salto
+            ",
+          "Cuidad de la Costa
+            "
+        ],
+        "airfare": [
+          "€680",
+          "€680",
+          "€680"
+        ],
+        "busfare": [
+          "€20",
+          "€20",
+          "€20"
+        ],
+        "zooticket": [
+          "€15",
+          "€15",
+          "€15"
         ]
       },
       {
         "Name": "Peru",
         "currency": "Sol",
         "city": [
-          {
-            "#text": "Lima
-                ",
-            "airfare": "€450",
-            "busfare": "€12",
-            "zooticket": "€10"
-          },
-          {
-            "#text": "Cuzco
-                ",
-            "airfare": "€450",
-            "busfare": "€12",
-            "zooticket": "€10"
-          },
-          {
-            "#text": "Aguas Verdes
-                ",
-            "airfare": "€450",
-            "busfare": "€12",
-            "zooticket": "€10"
-          }
+          "Lima
+            ",
+          "Cuzco
+            ",
+          "Aguas Verdes
+            "
+        ],
+        "airfare": [
+          "€450",
+          "€450",
+          "€450"
+        ],
+        "busfare": [
+          "€12",
+          "€12",
+          "€12"
+        ],
+        "zooticket": [
+          "€10",
+          "€10",
+          "€10"
         ]
       },
       {
         "Name": "Chile",
         "currency": "Chilean Peso",
         "city": [
-          {
-            "#text": "Santiago
-                ",
-            "airfare": "€800",
-            "busfare": "€20",
-            "zooticket": "€20"
-          },
-          {
-            "#text": "Vina del Mar
-                ",
-            "airfare": "€800",
-            "busfare": "€20",
-            "zooticket": "€20"
-          },
-          {
-            "#text": "Temuco
-                ",
-            "airfare": "€800",
-            "busfare": "€20",
-            "zooticket": "€20"
-          }
+          "Santiago
+            ",
+          "Vina del Mar
+            ",
+          "Temuco
+            "
+        ],
+        "airfare": [
+          "€800",
+          "€800",
+          "€800"
+        ],
+        "busfare": [
+          "€20",
+          "€20",
+          "€20"
+        ],
+        "zooticket": [
+          "€20",
+          "€20",
+          "€20"
         ]
       },
       {
         "Name": "Colombia",
         "currency": "Peso Colombiano",
         "city": [
-          {
-            "#text": "Bogota
-                ",
-            "airfare": "€900",
-            "busfare": "€15",
-            "zooticket": "€12"
-          },
-          {
-            "#text": "Medellin
-                ",
-            "airfare": "€900",
-            "busfare": "€15",
-            "zooticket": "€12"
-          },
-          {
-            "#text": "Pereira
-                ",
-            "airfare": "€900",
-            "busfare": "€15",
-            "zooticket": "€12"
-          }
+          "Bogota
+            ",
+          "Medellin
+            ",
+          "Pereira
+            "
+        ],
+        "airfare": [
+          "€900",
+          "€900",
+          "€900"
+        ],
+        "busfare": [
+          "€15",
+          "€15",
+          "€15"
+        ],
+        "zooticket": [
+          "€12",
+          "€12",
+          "€12"
         ]
       },
       {
         "Name": "Ecuador",
         "currency": "Dolar",
         "city": [
-          {
-            "#text": "Quito
-                ",
-            "airfare": "€900",
-            "busfare": "€15",
-            "zooticket": "€12"
-          },
-          {
-            "#text": "Guayaquil
-                ",
-            "airfare": "€900",
-            "busfare": "€15",
-            "zooticket": "€12"
-          },
-          {
-            "#text": "Cuenca
-                ",
-            "airfare": "€900",
-            "busfare": "€15",
-            "zooticket": "€12"
-          }
+          "Quito
+            ",
+          "Guayaquil
+            ",
+          "Cuenca
+            "
+        ],
+        "airfare": [
+          "€900",
+          "€900",
+          "€900"
+        ],
+        "busfare": [
+          "€15",
+          "€15",
+          "€15"
+        ],
+        "zooticket": [
+          "€12",
+          "€12",
+          "€12"
         ]
       },
       {
         "Name": "Venezuela",
         "currency": "Bolivar",
         "city": [
-          {
-            "#text": "Caracas
-                ",
-            "airfare": "€950",
-            "busfare": "€20",
-            "zooticket": "€25"
-          },
-          {
-            "#text": "Maracaibo
-                ",
-            "airfare": "€950",
-            "busfare": "€20",
-            "zooticket": "€25"
-          },
-          {
-            "#text": "Valencia
-                ",
-            "airfare": "€950",
-            "busfare": "€20",
-            "zooticket": "€25"
-          }
+          "Caracas
+            ",
+          "Maracaibo
+            ",
+          "Valencia
+            "
+        ],
+        "airfare": [
+          "€950",
+          "€950",
+          "€950"
+        ],
+        "busfare": [
+          "€20",
+          "€20",
+          "€20"
+        ],
+        "zooticket": [
+          "€25",
+          "€25",
+          "€25"
         ]
       },
       {
         "Name": "Guyana",
         "currency": "Dolar Guyanes",
         "city": [
-          {
-            "#text": "Georgetown
-                ",
-            "airfare": "€950",
-            "busfare": "€20",
-            "zooticket": "€25"
-          },
-          {
-            "#text": "Linden
-                ",
-            "airfare": "€950",
-            "busfare": "€20",
-            "zooticket": "€25"
-          },
-          {
-            "#text": "Mahaica
-                ",
-            "airfare": "€950",
-            "busfare": "€20",
-            "zooticket": "€25"
-          }
+          "Georgetown
+            ",
+          "Linden
+            ",
+          "Mahaica
+            "
+        ],
+        "airfare": [
+          "€950",
+          "€950",
+          "€950"
+        ],
+        "busfare": [
+          "€20",
+          "€20",
+          "€20"
+        ],
+        "zooticket": [
+          "€25",
+          "€25",
+          "€25"
         ]
       },
       {
         "Name": "Surinam",
         "currency": "Dolar Surinames",
         "city": [
-          {
-            "#text": "Paramaribo
-                ",
-            "airfare": "€1,200",
-            "busfare": "€30",
-            "zooticket": "€25"
-          },
-          {
-            "#text": "Leydorp
-                ",
-            "airfare": "€1,200",
-            "busfare": "€30",
-            "zooticket": "€25"
-          },
-          {
-            "#text": "Moengo
-                ",
-            "airfare": "€1,200",
-            "busfare": "€30",
-            "zooticket": "€25"
-          }
+          "Paramaribo
+            ",
+          "Leydorp
+            ",
+          "Moengo
+            "
+        ],
+        "airfare": [
+          "€1,200",
+          "€1,200",
+          "€1,200"
+        ],
+        "busfare": [
+          "€30",
+          "€30",
+          "€30"
+        ],
+        "zooticket": [
+          "€25",
+          "€25",
+          "€25"
         ]
       },
       {
         "Name": "Paraguay",
         "currency": "Guarani",
         "city": [
-          {
-            "#text": "Asuncion
-                ",
-            "airfare": "€1,300",
-            "busfare": "€25",
-            "zooticket": "€25"
-          },
-          {
-            "#text": "Cuidad del Este
-                ",
-            "airfare": "€1,300",
-            "busfare": "€25",
-            "zooticket": "€25"
-          },
-          {
-            "#text": "Luque
-                ",
-            "airfare": "€1,300",
-            "busfare": "€25",
-            "zooticket": "€25"
-          }
+          "Asuncion
+            ",
+          "Cuidad del Este
+            ",
+          "Luque
+            "
+        ],
+        "airfare": [
+          "€1,300",
+          "€1,300",
+          "€1,300"
+        ],
+        "busfare": [
+          "€25",
+          "€25",
+          "€25"
+        ],
+        "zooticket": [
+          "€25",
+          "€25",
+          "€25"
         ]
       },
       {
         "Name": "Belice",
         "currency": "Dolar",
         "city": [
-          {
-            "#text": "Belmopan
-                ",
-            "airfare": "€750",
-            "busfare": "€15",
-            "zooticket": "€15"
-          },
-          {
-            "#text": "Corozal
-                ",
-            "airfare": "€750",
-            "busfare": "€15",
-            "zooticket": "€15"
-          },
-          {
-            "#text": "Dangiga
-                ",
-            "airfare": "€750",
-            "busfare": "€15",
-            "zooticket": "€15"
-          }
+          "Belmopan
+            ",
+          "Corozal
+            ",
+          "Dangiga
+            "
+        ],
+        "airfare": [
+          "€750",
+          "€750",
+          "€750"
+        ],
+        "busfare": [
+          "€15",
+          "€15",
+          "€15"
+        ],
+        "zooticket": [
+          "€15",
+          "€15",
+          "€15"
         ]
       },
       {
         "Name": "Costa Rica",
         "currency": "Colon",
         "city": [
-          {
-            "#text": "San Jose
-                ",
-            "airfare": "€670",
-            "busfare": "€20",
-            "zooticket": "€15"
-          },
-          {
-            "#text": "Paraiso
-                ",
-            "airfare": "€670",
-            "busfare": "€20",
-            "zooticket": "€15"
-          },
-          {
-            "#text": "Puntarenas
-                ",
-            "airfare": "€670",
-            "busfare": "€20",
-            "zooticket": "€15"
-          }
+          "San Jose
+            ",
+          "Paraiso
+            ",
+          "Puntarenas
+            "
+        ],
+        "airfare": [
+          "€670",
+          "€670",
+          "€670"
+        ],
+        "busfare": [
+          "€20",
+          "€20",
+          "€20"
+        ],
+        "zooticket": [
+          "€15",
+          "€15",
+          "€15"
         ]
       },
       {
         "Name": "El Salvador",
         "currency": "Dolar USD",
         "city": [
-          {
-            "#text": "San Salvador
-                ",
-            "airfare": "€700",
-            "busfare": "€12",
-            "zooticket": "€15"
-          },
-          {
-            "#text": "Mejicanos
-                ",
-            "airfare": "€700",
-            "busfare": "€12",
-            "zooticket": "€15"
-          },
-          {
-            "#text": "Apopa
-                ",
-            "airfare": "€700",
-            "busfare": "€12",
-            "zooticket": "€15"
-          }
+          "San Salvador
+            ",
+          "Mejicanos
+            ",
+          "Apopa
+            "
+        ],
+        "airfare": [
+          "€700",
+          "€700",
+          "€700"
+        ],
+        "busfare": [
+          "€12",
+          "€12",
+          "€12"
+        ],
+        "zooticket": [
+          "€15",
+          "€15",
+          "€15"
         ]
       },
       {
         "Name": "Guatemala",
         "currency": "Quetzal GTQ",
         "city": [
-          {
-            "#text": "Guatemala
-                ",
-            "airfare": "€800",
-            "busfare": "€15",
-            "zooticket": "€12"
-          },
-          {
-            "#text": "Peten
-                ",
-            "airfare": "€800",
-            "busfare": "€15",
-            "zooticket": "€12"
-          },
-          {
-            "#text": "Solola
-                ",
-            "airfare": "€800",
-            "busfare": "€15",
-            "zooticket": "€12"
-          }
+          "Guatemala
+            ",
+          "Peten
+            ",
+          "Solola
+            "
+        ],
+        "airfare": [
+          "€800",
+          "€800",
+          "€800"
+        ],
+        "busfare": [
+          "€15",
+          "€15",
+          "€15"
+        ],
+        "zooticket": [
+          "€12",
+          "€12",
+          "€12"
         ]
       },
       {
         "Name": "Nicaragua",
         "currency": "Cordoba NIO",
         "city": [
-          {
-            "#text": "Managua
-                ",
-            "airfare": "€860",
-            "busfare": "€25",
-            "zooticket": "€18"
-          },
-          {
-            "#text": "Leon
-                ",
-            "airfare": "€860",
-            "busfare": "€25",
-            "zooticket": "€18"
-          },
-          {
-            "#text": "Granada
-                ",
-            "airfare": "€860",
-            "busfare": "€25",
-            "zooticket": "€18"
-          }
+          "Managua
+            ",
+          "Leon
+            ",
+          "Granada
+            "
+        ],
+        "airfare": [
+          "€860",
+          "€860",
+          "€860"
+        ],
+        "busfare": [
+          "€25",
+          "€25",
+          "€25"
+        ],
+        "zooticket": [
+          "€18",
+          "€18",
+          "€18"
         ]
       },
       {
         "Name": "Panama",
         "currency": "Dolar",
         "city": [
-          {
-            "#text": "Panama
-                ",
-            "airfare": "€790",
-            "busfare": "€20",
-            "zooticket": "€18"
-          },
-          {
-            "#text": "Colon
-                ",
-            "airfare": "€790",
-            "busfare": "€20",
-            "zooticket": "€18"
-          },
-          {
-            "#text": "Herrera
-                ",
-            "airfare": "€790",
-            "busfare": "€20",
-            "zooticket": "€18"
-          }
+          "Panama
+            ",
+          "Colon
+            ",
+          "Herrera
+            "
+        ],
+        "airfare": [
+          "€790",
+          "€790",
+          "€790"
+        ],
+        "busfare": [
+          "€20",
+          "€20",
+          "€20"
+        ],
+        "zooticket": [
+          "€18",
+          "€18",
+          "€18"
         ]
       }
     ]
-  }
+  
 }
