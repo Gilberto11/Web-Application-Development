@@ -3,29 +3,14 @@
 	<xsl:template match="/">
 		<html>
 			<head>
-				<style>
-				  table {
-				    border-collapse: collapse;
-				  }
-				  td, th {
-				    border: 1px solid #999;
-				    padding: 0.5rem;
-				    text-align: left;
-				  }
-				  th {
-				    font-weight: bold;
-				  }
-			  </style>
 			</head>
 			<body>
 				<table>
 					<tr>
 						<th>Name</th>
-						<th>City</th>
-						<th>City</th>
-						<th>City</th>
+						<th>Capital</th>
 						<th>Currency</th>
-						<th>Airfare from Ire</th>
+						<th>Airfare from Ireand</th>
         		<th>BusCityTour</th>
 						<th>ZooTicket Entrance</th>	
 					</tr>
@@ -34,11 +19,9 @@
 								<td>
 									<xsl:value-of select="Name"/>
 								</td>
-								<xsl:for-each select="city">
-									<td>
-										<xsl:value-of select="."/>
-									</td>
-								</xsl:for-each>
+								<td>
+								<xsl:value-of select="city"/>
+								</td>
 								<td>
 									<xsl:value-of select="currency"/>
 								</td>
