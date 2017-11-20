@@ -52,13 +52,56 @@
 <body>
     
   <div class="container">
-    <div class="navbar navbar-fixed-top navbar-inverse">
-      <div class="navbar-inner">
+    <div class="navbar navbar-fixed-top navbar-inverse" style="visibility: hidden;" >
+      <div class="navbar-inner" style="visibility: hidden;" >
       </div>
     </div>
     <div class="page-header">
-      <h1>South America</h1>
+      <h1>Discover South America</h1>
     </div>
+    <div style="background-color: rgba(255,255,255,0.8); padding: 20px; border-radius: 8px;">
+      <p>
+        <b>Dramatic scenery, vivid culture, a mysterious past – South America has it all!  Whether you want to trek to Machu Picchu or are more at home relaxing on a Brazilian beach, we can organise your perfect holiday.
+
+Choose one of our Suggested Itineraries or use our Tour Builder to combine short Pick and Mix Tours. All our tours are customisable and can be modified to suit you. 
+
+For complete flexibility contact us for a Tailor Made Quote – we can tailor tours to your holiday plans and to your budget with accommodation options ranging from family run B and Bs to luxury hotels and a choice of shared or private tours.
+
+With friendly UK based travel experts and 100% financial protection, we're here to help you Discover South America.
+          We love South America and want to help you get the most out of your trip!
+
+When you book with Discover South America you can travel your own itinerary at your own pace, tour the most important destinations with a specialist local guide, either privately or as part of a small group, and relax knowing that all travel and accommodation arrangements have been made, and that your whole trip is financially protected.
+
+Travel with us for:
+
+Flexibility - Departure dates are flexible and you can travel alone or with your companions.
+
+Local Knowledge - We will work with you to customise your itinerary before departure, using our destination expertise to make suggestions and amendments to suit you.  We work directly with the best and most responsible local operators in each destination.
+
+Independence - Enjoy your own free time to relax or explore independently, but with the peace of mind that all arrangements have been made and that you won’t miss out on the most important sights or experiences.
+
+Package booking - Your package will include accommodation, overland transport such as train, bus or boat, arrival and departure transfers and the specific tours or guided activities that you choose.
+
+Value for money – You can take local tours as part of a small group, or on a private basis.  You can also choose from accommodation options ranging from family run B and Bs to luxury hotels.  We will help you get the most out of your budget for your trip.<b/>
+      </p>
+    </div>
+    <div style="margin-bottom: 20px; margin-top: 20px; padding: 20px;">
+<button type="button" onclick="loadXMLDoc()">More info</button>
+      <p style="background-color: rgba(255,255,255,0.8); padding: 20px; border-radius: 8px;" id="moreInfo"></p>
+<script>
+function loadXMLDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("moreInfo").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "moreInfo.txt", true);
+  xhttp.send();
+}
+</script>
+      </div>
     <div class="row">
       <div id="results" class="span8">
           </div>
