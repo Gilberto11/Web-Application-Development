@@ -8,39 +8,38 @@
   <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
   <style>
     .button {
-  padding: 15px 25px;
-  font-size: 24px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: #fff;
-  background-color: #4CAF50;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-}
+      padding: 15px 25px;
+      font-size: 24px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: #fff;
+      background-color: #4CAF50;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+    }
 
-.button:hover {background-color: #3e8e41}
+    .button:hover {
+      background-color: #3e8e41
+    }
 
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-    
+    .button:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+
     body {
-       max-width:100%;
+      max-width: 100%;
       padding-top: 60px;
       padding-bottom: 60px;
-      
-    
-  /* Base64 encoded transparent gif */
-  /*the below code put the picture as background and fit the pic to 100% in a div so it will be responsive */
- background: url(http://www.chileantravelservices.com/nacional/wp-content/gallery/background/panama.jpg); 
- background-size:150%;      
-    
+      /* Base64 encoded transparent gif */
+      /*the below code put the picture as background and fit the pic to 100% in a div so it will be responsive */
+      background: url(http://www.chileantravelservices.com/nacional/wp-content/gallery/background/panama.jpg);
+      background-size: 100%;
     }
-    
+
     table,
     th,
     td {
@@ -69,10 +68,10 @@
 </head>
 
 <body>
-    
+
   <div class="container">
-    <div class="navbar navbar-fixed-top navbar-inverse" style="visibility: hidden;" >
-      <div class="navbar-inner" style="visibility: hidden;" >
+    <div class="navbar navbar-fixed-top navbar-inverse" style="visibility: hidden;">
+      <div class="navbar-inner" style="visibility: hidden;">
       </div>
     </div>
     <div class="page-header">
@@ -105,20 +104,40 @@ Value for money – You can take local tours as part of a small group, or on a p
       </p>
     </div>
     <div style="margin-bottom: 20px; margin-top: 20px; padding: 20px;">
-<button class="button" onclick="loadXMLDoc()">More info</button>
+<button class="button" onclick="toggleInfo()">More info</button>
       <p style="background-color: rgba(255,255,255,0.8); padding: 20px; border-radius: 8px;" id="moreInfo"></p>
 <script>
-function loadXMLDoc() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("moreInfo").innerHTML =
-      this.responseText;
+  var infoIsVisible = false;
+  function toggleInfo(){
+    if(infoIsVisible){
+      hideInfo();
     }
-  };
-  xhttp.open("GET", "moreInfo.txt", true);
-  xhttp.send();
+    else {
+      loadXMLDoc(showInfo)
+    }
+    
+  }
+  
+function showInfo(responseText) {
+  document.getElementById("moreInfo").innerHTML = responseText;
+  infoIsVisible = true;
 }
+  
+  function hideInfo() {
+    document.getElementById("moreInfo").innerHTML = '';
+    infoIsVisible = false;
+  }
+  
+  function loadXMLDoc(_cb) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        _cb(this.responseText)
+      }
+    };
+    xhttp.open("GET", "moreInfo.txt", true);
+    xhttp.send();
+  }
 </script>
       </div>
     <div class="row">
