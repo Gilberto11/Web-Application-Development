@@ -138,8 +138,28 @@ function showInfo(responseText) {
     xhttp.open("GET", "moreInfo.txt", true);
     xhttp.send();
   }
+  
+  function myFunction() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("results");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+  
 </script>
       </div>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
     <div class="row">
       <div id="results" class="span8">
           </div>
@@ -148,7 +168,7 @@ function showInfo(responseText) {
           <li>
             <form enctype='application/json' action="/post/json" method="post">
               <div class="field">
-                <input type="text" name="name" placeholder="Country Name">
+                <input type="text" name="Name" placeholder="Country Name">
               </div>
               <div class="field">
                 <input type="text" name="city" placeholder="City">
@@ -174,6 +194,8 @@ function showInfo(responseText) {
       </div>
     </div>
   </div>
+  <script>
+</script>
 
 </body>
 
