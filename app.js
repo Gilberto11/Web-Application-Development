@@ -65,7 +65,7 @@ router.post('/post/json', function(req, res) {
     // Function to read in XML file, convert it to JSON, add a new object and write back to XML file
     xmlFileToJs('Countries.xml', function(err, result) {
       if (err) throw (err);
-      result.countries.country.push(obj); 
+      result.southAmerica.country.push(obj); 
       jsToXmlFile('Countries.xml', result, function(err) {
         if (err) console.log(err);
       })
