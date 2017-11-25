@@ -5,7 +5,7 @@
 			<head>
 			</head>
 			<body>
-				<table>
+				<table id="table">
 					<tr>
 						<th>Name</th>
 						<th>Capital</th>
@@ -15,7 +15,7 @@
 						<th>ZooTicket Entrance</th>	
 					</tr>
 					<xsl:for-each select="southAmerica/country">
-							<tr>
+							<tr id="{position()}">
 								<td>
 									<xsl:value-of select="Name"/>
 								</td>
