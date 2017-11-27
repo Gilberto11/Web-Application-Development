@@ -182,30 +182,28 @@ function showInfo(responseText) {
       <div class="span4">
         <ul class="nav nav-list well">
           <li>
-            <form enctype='application/json' action="/post/json" method="post">
+            <form enctype='application/json' action="/post/json" method="post" action="/action_page.php">
               <div class="field">
-                <input type="text" name="Name" placeholder="Country Name">
+                <input type="text" name="Name" placeholder="Country Name" required>
               </div>
               <div class="field">
-                <input type="text" name="city" placeholder="City">
+                <input type="text" name="city" placeholder="City" required>
               </div>
               <div class="field">
-                <input type="text" name="currency" placeholder="Currency">
+                <input type="text" name="currency" placeholder="Currency" required>
               </div>
               <div class="field">
-                <input type="text" name="airfare" placeholder="Flight Ticket Cost">
+                <input type="text" name="airfare" placeholder="Flight Ticket Cost" required>
               </div>
               <div class="field">
-                <input type="text" name="busfare" placeholder="Bus Ticket">
+                <input type="text" name="busfare" placeholder="Bus Ticket" required>
               </div>
                 <div class="field">
-                <input type="text" name="zooticket" placeholder="Zoo Ticket">
+                <input type="text" name="zooticket" placeholder="Zoo Ticket" required>
               </div>
               <div class="field">
                 <button type="submit">Submit</button>
-<!--                   <button type="delete">Delete</button> -->
               </div>
-            </form>
             </form>
           </li>
         </ul>
