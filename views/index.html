@@ -64,14 +64,14 @@
           $("#results").append(html);
           $("#table tbody tr").click( function(){
             $(".selected").removeClass("selected");
-            $(this).addClass("selected");
-            var $row=$(this).attr("id");
-                $.ajax({
-               url: "/post/delete",
-                cache: false,
-                  type: "POST",
-                  data: {row:$row}
-                })
+           $(this).addClass("selected");
+           // var $row=$(this).attr("id");
+//                 $.ajax({
+//                url: "/post/delete",
+//                 cache: false,
+//                   type: "POST",
+//                   data: {row:$row}
+//                 })
              })
         }
       });
@@ -81,6 +81,14 @@
       load();
     });
   </script>
+  
+  <script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $(".selected").remove();
+    });
+});
+</script>
 </head>
 
 <body>
@@ -212,6 +220,7 @@ function showInfo(responseText) {
   </div>
   <script>
 </script>
+  <button class="button">Delete</button>
 
 </body>
 
