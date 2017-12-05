@@ -197,6 +197,16 @@ function showInfo(responseText) {
   }
 }
   
+  var capitals = {
+    "Argentina":"Buenos Aires",
+    "Brasil":"Brasilia",
+    "Bolivia":"La Paz",
+  }
+  
+  $(document).on('change', '#country',function(event){
+    $('#capital').val(capitals[$(event.target).val()])
+  });
+  
 </script>
       </div>
     <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
@@ -208,10 +218,14 @@ function showInfo(responseText) {
           <li>
             <form id= "saCountries" enctype='application/json' action="/post/json" method="post" action="/action_page.php">
               <div class="field">
-                <input type="text" name="Name" placeholder="Country Name" required>
+                <select id="country" name="Name" placeholder="Country Name" required>
+                  <option value="Argentina">Argentina</option>
+                  <option value="Bolivia">Bolivia</option>
+                  <option value="Brasil">Brasil</option>
+                </select>
               </div>
               <div class="field">
-                <input type="text" name="city" placeholder="City" required>
+                <input id="capital" type="text" name="city" placeholder="City" readonly>
               </div>
               <div class="field">
                 <input type="text" name="currency" placeholder="Currency" required>
@@ -235,6 +249,7 @@ function showInfo(responseText) {
     </div>
   </div>
   <script>
+     $('#capital').val(capitals[$('#country').val()])
 </script>
   <button class="button" id="delete">Delete</button>
   <h3>Navigate to any country in South America on the map below for more information</h3>
