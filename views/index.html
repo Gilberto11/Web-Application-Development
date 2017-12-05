@@ -196,17 +196,27 @@ function showInfo(responseText) {
     }       
   }
 }
-  
+  //Json object
   var capitals = {
     "Argentina":"Buenos Aires",
     "Brasil":"Brasilia",
     "Bolivia":"La Paz",
   }
-  
+  //listener in the case if country changes to auto populate their capitals
   $(document).on('change', '#country',function(event){
     $('#capital').val(capitals[$(event.target).val()])
   });
   
+  
+   var currencies = {
+    "Argentina":"Argentinian Pesos",
+    "Brasil":"Brazilian Reais",
+    "Bolivia":"Boliviano",
+  }
+  
+  $(document).on('change', '#country',function(event){
+    $('#currency').val(currencies[$(event.target).val()])
+  });
 </script>
       </div>
     <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
@@ -228,7 +238,7 @@ function showInfo(responseText) {
                 <input id="capital" type="text" name="city" placeholder="City" readonly>
               </div>
               <div class="field">
-                <input type="text" name="currency" placeholder="Currency" required>
+                <input id = "currency" type="text" name="currency" placeholder="Currency" readonly>
               </div>
               <div class="field">
                 <input type="text" name="airfare" placeholder="Flight Ticket Cost" required>
@@ -249,7 +259,9 @@ function showInfo(responseText) {
     </div>
   </div>
   <script>
+    //default values for capital and currency
      $('#capital').val(capitals[$('#country').val()])
+     $('#currency').val(currencies[$('#country').val()])   
 </script>
   <button class="button" id="delete">Delete</button>
   <h3>Navigate to any country in South America on the map below for more information</h3>
