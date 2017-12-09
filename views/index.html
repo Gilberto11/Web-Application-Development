@@ -197,10 +197,24 @@ function showInfo(responseText) {
   }
 }
   //Json object
+  //Validation the html to pick up only southAmerica countries on the table
   var capitals = {
     "Argentina":"Buenos Aires",
     "Brasil":"Brasilia",
     "Bolivia":"La Paz",
+    "Peru":"Lima",
+    "Colombia":"Bogota",
+    "Chile":"Santiago",
+    "Ecuador":"Quito",
+    "Venezuela":"Caracas",
+    "Paraguay":"Asuncion",
+    "Uruguay":"Montevideo",
+    "Suriname":"Paramaribo",
+    "Guayana":"Georgetown",
+    "Bolivia":"La Paz",
+    "Curacao":"Willemstad",
+    "Belice":"Belmopan",
+      
   }
   //listener in the case if country changes to auto populate their capitals
   $(document).on('change', '#country',function(event){
@@ -232,6 +246,18 @@ function showInfo(responseText) {
                   <option value="Argentina">Argentina</option>
                   <option value="Bolivia">Bolivia</option>
                   <option value="Brasil">Brasil</option>
+                  <option value="Peru">Peru</option>
+                  <option value="Colombia">Colombia</option> 
+                  <option value="Chile">Chile</option> 
+                  <option value="Ecuador">Ecuador</option> 
+                  <option value="Venezuela">Venezuela</option>  
+                  <option value="Paraguay">Paraguay</option> 
+                  <option value="Uruguay">Uruguay</option>
+                  <option value="Suriname">Suriname</option> 
+                  <option value="Guayana">Guayana</option> 
+                  <option value="Bolivia">Bolivia</option>  
+                  <option value="Curacao">Curacao</option>
+                  <option value="Belice">Belice</option>
                 </select>
               </div>
               <div class="field">

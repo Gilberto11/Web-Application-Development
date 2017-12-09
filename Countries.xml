@@ -64,28 +64,4 @@
     <busfare>€20</busfare>
     <zooticket>€25</zooticket>
   </country>
-  <country>
-    <Name>Guyana</Name>
-    <currency>Dolar Guyanes</currency>
-    <city>Georgetown</city>
-    <airfare>€950</airfare>
-    <busfare>€20</busfare>
-    <zooticket>€25</zooticket>
-  </country>
-  <country>
-    <Name>Surinam</Name>
-    <currency>Dolar Surinames</currency>
-    <city>Paramaribo</city>
-    <airfare>€1,200</airfare>
-    <busfare>€30</busfare>
-    <zooticket>€25</zooticket>
-  </country>
-  <country>
-    <Name>Belice</Name>
-    <currency>Dolar</currency>
-    <city>Belmopan</city>
-    <airfare>€750</airfare>
-    <busfare>€15</busfare>
-    <zooticket>€15</zooticket>
-  </country>
 </southAmerica>
