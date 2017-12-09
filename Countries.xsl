@@ -10,9 +10,9 @@
 						<th>Name</th>
 						<th>Capital</th>
 						<th>Currency</th>
-						<th>Airfare from Ireand</th>
-        				<th>BusCityTour</th>
-						<th>ZooTicket Entrance</th>	
+						<th>Flight Tickets</th>
+        				<th>Bus Tickets</th>
+						<th>Zoo Ticket Entrance</th>	
 					</tr>
 					<xsl:for-each select="southAmerica/country">
 							<tr id="{position()}">
