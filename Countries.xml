@@ -64,4 +64,12 @@
     <busfare>€20</busfare>
     <zooticket>€25</zooticket>
   </country>
+  <country>
+    <Name>Curacao</Name>
+    <city>Willemstad</city>
+    <currency>Netherlands Antillean Guilder</currency>
+    <airfare>€1020</airfare>
+    <busfare>€40</busfare>
+    <zooticket>€25</zooticket>
+  </country>
 </southAmerica>

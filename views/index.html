@@ -244,6 +244,35 @@ function showInfo(responseText) {
   $(document).on('change', '#country',function(event){
     $('#currency').val(currencies[$(event.target).val()])
   });
+  
+  
+  //validation the html form with the ticket price by default
+  
+    var airfare = {
+    "Argentina":"€950",
+    "Brasil":"€850",
+    "Bolivia":"€750",
+    "Peru":"€450",
+    "Colombia":"€900",
+    "Chile":"€800",
+    "Ecuador":"€900",
+    "Venezuela":"€950",
+    "Paraguay":"€1000",
+    "Uruguay":"€680",
+    "Suriname":"€980",
+    "Guayana":"€1100",
+    "Bolivia":"650",
+    "Curacao":"€1020",
+    "Belice":"€990",       
+
+  }
+  //validation the html form by airfare
+  $(document).on('change', '#country',function(event){
+    $('#airfare').val(airfare[$(event.target).val()])
+  });
+  
+  
+  
 </script>
       </div>
     <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
@@ -280,7 +309,7 @@ function showInfo(responseText) {
                 <input id = "currency" type="text" name="currency" placeholder="Currency" readonly>
               </div>
               <div class="field">
-                <input type="text" name="airfare" placeholder="Flight Ticket Cost" required>
+                <input id="airfare" name="airfare" placeholder="Flight Ticket Cost" readonly>
               </div>
               <div class="field">
                 <input type="text" name="busfare" placeholder="Bus Ticket" required>
@@ -298,9 +327,10 @@ function showInfo(responseText) {
     </div>
   </div>
   <script>
-    //default values for capital and currency
+    //default values for capital, currency and airfare 
      $('#capital').val(capitals[$('#country').val()])
      $('#currency').val(currencies[$('#country').val()])   
+     $('#airfare').val(airfare[$('#country').val()])   
 </script>
   <button class="button" id="delete">Delete</button>
   <h3>Navigate to any country in South America on the map below for more information</h3>
