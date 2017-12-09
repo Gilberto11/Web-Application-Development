@@ -271,6 +271,31 @@ function showInfo(responseText) {
     $('#airfare').val(airfare[$(event.target).val()])
   });
   
+   //validation the html form with the busfare by default
+  
+    var busfare = {
+    "Argentina":"€15",
+    "Brasil":"€10",
+    "Bolivia":"€25",
+    "Peru":"€12",
+    "Colombia":"€45",
+    "Chile":"€20",
+    "Ecuador":"€20",
+    "Venezuela":"€20",
+    "Paraguay":"€25",
+    "Uruguay":"€20",
+    "Suriname":"€30",
+    "Guayana":"€15",
+    "Bolivia":"25",
+    "Curacao":"€40",
+    "Belice":"€15",       
+
+  }
+  //validation the html form by busfare
+  $(document).on('change', '#country',function(event){
+    $('#busfare').val(busfare[$(event.target).val()])
+  });
+  
   
   
 </script>
@@ -309,10 +334,10 @@ function showInfo(responseText) {
                 <input id = "currency" type="text" name="currency" placeholder="Currency" readonly>
               </div>
               <div class="field">
-                <input id="airfare" name="airfare" placeholder="Flight Ticket Cost" readonly>
+                <input id="airfare" type="text" name="airfare" placeholder="Flight Ticket Cost" readonly>
               </div>
               <div class="field">
-                <input type="text" name="busfare" placeholder="Bus Ticket" required>
+                <input id="busfare" type="text" name="busfare" placeholder="Bus Ticket" readonly>
               </div>
                 <div class="field">
                 <input type="text" name="zooticket" placeholder="Zoo Ticket" required>
@@ -327,10 +352,12 @@ function showInfo(responseText) {
     </div>
   </div>
   <script>
-    //default values for capital, currency and airfare 
+    //default values for capital, currency, airfare and busfare 
      $('#capital').val(capitals[$('#country').val()])
      $('#currency').val(currencies[$('#country').val()])   
-     $('#airfare').val(airfare[$('#country').val()])   
+     $('#airfare').val(airfare[$('#country').val()])  
+     $('#busfare').val(busfare[$('#country').val()])      
+
 </script>
   <button class="button" id="delete">Delete</button>
   <h3>Navigate to any country in South America on the map below for more information</h3>
