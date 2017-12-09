@@ -7,12 +7,12 @@
 			<body>
 				<table id="table">
 					<tr>
-						<<th>Name</th>
+						<th>Name</th>
 						<th>Capital</th>
 						<th>Currency</th>
-						<th>Flight Ticket</th>
-        				<th>Bus ticket</th>
-						<th>Zoo Ticket Entrance</th>
+						<th>Airfare from Ireand</th>
+        				<th>BusCityTour</th>
+						<th>ZooTicket Entrance</th>	
 					</tr>
 					<xsl:for-each select="southAmerica/country">
 							<tr id="{position()}">
