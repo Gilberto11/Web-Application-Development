@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     .button {
       padding: 15px 25px;
@@ -297,7 +298,30 @@ function showInfo(responseText) {
   }
   //validation the html form by busfare
   $(document).on('change', '#country',function(event){
-    $('#busfare').val(busfare[$(event.target).val()])
+    $('#zooticket').val(zooticket[$(event.target).val()])
+  });
+  
+  var zooticket = {
+    "Argentina":"€15",
+    "Brasil":"€13",
+    "Bolivia":"€18",
+    "Peru":"€10",
+    "Colombia":"€18",
+    "Chile":"€12",
+    "Ecuador":"€12",
+    "Venezuela":"€20",
+    "Paraguay":"€25",
+    "Uruguay":"€15",
+    "Suriname":"€30",
+    "Guayana":"€15",
+    "Bolivia":"25",
+    "Curacao":"€40",
+    "Belice":"€15",       
+
+  }
+  //validation the html form by busfare
+  $(document).on('change', '#country',function(event){
+    $('#zooticket').val(zooticket[$(event.target).val()])
   });
   
   
@@ -305,7 +329,7 @@ function showInfo(responseText) {
 </script>
       
       </div>
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search by country names.." title="Type in a name">
     <div class="row">
       <div id="results" class="span8">
       </div>
@@ -345,7 +369,7 @@ function showInfo(responseText) {
                 <input id="busfare" type="text" name="busfare" placeholder="Bus Ticket" readonly>
               </div>
                 <div class="field">
-                <input type="text" name="zooticket" placeholder="Zoo Ticket" required>
+                <input id= "zooticket" type="text" name="zooticket" placeholder="Zoo Ticket" readonly>
               </div>
               <div class="field">
                 <button type="submit">Submit</button>
@@ -361,7 +385,8 @@ function showInfo(responseText) {
      $('#capital').val(capitals[$('#country').val()])
      $('#currency').val(currencies[$('#country').val()])   
      $('#airfare').val(airfare[$('#country').val()])  
-     $('#busfare').val(busfare[$('#country').val()])      
+     $('#busfare').val(busfare[$('#country').val()]) 
+     $('#zooticket').val(zooticket[$('#country').val()]) 
 
 </script>
   <button class="button" id="delete">Delete</button>
