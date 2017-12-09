@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     .button {
       padding: 15px 25px;
@@ -63,7 +62,8 @@
   <script src="/js/jquery.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
   <script>
-    //Functionality to add countries to the XML table through to the HTML form
+   
+     //Functionality to add countries to the XML table through to the HTML form
       function draw_table() {
         $("#results").empty();
         $.getJSONUncached = function(url) {
@@ -79,7 +79,8 @@
         };
         $.getJSONUncached("/get/html")
       }
-    //Functionality for selecting a row in the XML table.
+   
+     //Functionality for selecting a row in the XML table.
       function select_row() {
         $("#table tbody tr").click(function() {
           $(".selected").removeClass("selected");
@@ -88,6 +89,7 @@
           delete_row($row);
         })
       };
+  
     //Functionality for deleting a row when clicked a delete button. 
       function delete_row(row_val) {
         $("#delete").click(function() {
@@ -150,7 +152,9 @@ Value for money – You can take local tours as part of a small group, or on a p
     <div style="margin-bottom: 20px; margin-top: 20px; padding: 20px;">
 <button class="button" onclick="toggleInfo()">More info</button>
       <p style="background-color: rgba(255,255,255,0.4); padding: 20px; border-radius: 8px;" id="moreInfo"></p>
-<script> //Created a button to give more information about the website
+<script> 
+  
+  //Above code creates a button to give more information about the website
   
   var infoIsVisible = false;
   function toggleInfo(){
@@ -298,30 +302,7 @@ function showInfo(responseText) {
   }
   //validation the html form by busfare
   $(document).on('change', '#country',function(event){
-    $('#zooticket').val(zooticket[$(event.target).val()])
-  });
-  
-  var zooticket = {
-    "Argentina":"€15",
-    "Brasil":"€13",
-    "Bolivia":"€18",
-    "Peru":"€10",
-    "Colombia":"€18",
-    "Chile":"€12",
-    "Ecuador":"€12",
-    "Venezuela":"€20",
-    "Paraguay":"€25",
-    "Uruguay":"€15",
-    "Suriname":"€30",
-    "Guayana":"€15",
-    "Bolivia":"25",
-    "Curacao":"€40",
-    "Belice":"€15",       
-
-  }
-  //validation the html form by busfare
-  $(document).on('change', '#country',function(event){
-    $('#zooticket').val(zooticket[$(event.target).val()])
+    $('#busfare').val(busfare[$(event.target).val()])
   });
   
   
@@ -329,7 +310,7 @@ function showInfo(responseText) {
 </script>
       
       </div>
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search by country names.." title="Type in a name">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
     <div class="row">
       <div id="results" class="span8">
       </div>
@@ -369,7 +350,7 @@ function showInfo(responseText) {
                 <input id="busfare" type="text" name="busfare" placeholder="Bus Ticket" readonly>
               </div>
                 <div class="field">
-                <input id= "zooticket" type="text" name="zooticket" placeholder="Zoo Ticket" readonly>
+                <input type="text" name="zooticket" placeholder="Zoo Ticket" required>
               </div>
               <div class="field">
                 <button type="submit">Submit</button>
@@ -381,12 +362,14 @@ function showInfo(responseText) {
     </div>
   </div>
   <script>
+    
     //default values for capital, currency, airfare and busfare 
      $('#capital').val(capitals[$('#country').val()])
      $('#currency').val(currencies[$('#country').val()])   
      $('#airfare').val(airfare[$('#country').val()])  
-     $('#busfare').val(busfare[$('#country').val()]) 
-     $('#zooticket').val(zooticket[$('#country').val()]) 
+     $('#busfare').val(busfare[$('#country').val()])     
+    
+    //below code creates a button which help the user to navigate in to the google map
 
 </script>
   <button class="button" id="delete">Delete</button>
