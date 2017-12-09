@@ -41,14 +41,6 @@
     <zooticket>€20</zooticket>
   </country>
   <country>
-    <Name>Colombia</Name>
-    <currency>Peso Colombiano</currency>
-    <city>Bogota</city>
-    <airfare>€900</airfare>
-    <busfare>€15</busfare>
-    <zooticket>€12</zooticket>
-  </country>
-  <country>
     <Name>Ecuador</Name>
     <currency>Dolar</currency>
     <city>Quito</city>

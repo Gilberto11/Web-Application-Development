@@ -220,7 +220,6 @@ function showInfo(responseText) {
     "Uruguay":"Montevideo",
     "Suriname":"Paramaribo",
     "Guayana":"Georgetown",
-    "Bolivia":"La Paz",
     "Curacao":"Willemstad",
     "Belice":"Belmopan",
       
@@ -244,7 +243,6 @@ function showInfo(responseText) {
     "Uruguay":"Peso",
     "Suriname":"Surinamese Dolar",
     "Guayana":"Guayanese Dolar",
-    "Bolivia":"Boliviano",
     "Curacao":"Netherlands Antillean Guilder",
     "Belice":"Belize dollar",       
 
@@ -270,7 +268,6 @@ function showInfo(responseText) {
     "Uruguay":"€680",
     "Suriname":"€980",
     "Guayana":"€1100",
-    "Bolivia":"650",
     "Curacao":"€1020",
     "Belice":"€990",       
 
@@ -295,7 +292,6 @@ function showInfo(responseText) {
     "Uruguay":"€20",
     "Suriname":"€30",
     "Guayana":"€15",
-    "Bolivia":"25",
     "Curacao":"€40",
     "Belice":"€15",       
 
@@ -303,6 +299,30 @@ function showInfo(responseText) {
   //validation the html form by busfare
   $(document).on('change', '#country',function(event){
     $('#busfare').val(busfare[$(event.target).val()])
+  });
+  
+   //validation the html form with the zooticket by default
+  
+    var zooticket = {
+    "Argentina":"€15",
+    "Brasil":"€13",
+    "Bolivia":"€18",
+    "Peru":"€10",
+    "Colombia":"€12",
+    "Chile":"€20",
+    "Ecuador":"€12",
+    "Venezuela":"€20",
+    "Paraguay":"€25",
+    "Uruguay":"€15",
+    "Suriname":"€12",
+    "Guayana":"€15",
+    "Curacao":"€20",
+    "Belice":"€15",       
+
+  }
+  //validation the html form by busfare
+  $(document).on('change', '#country',function(event){
+    $('#zooticket').val(zooticket[$(event.target).val()])
   });
   
   
@@ -350,7 +370,7 @@ function showInfo(responseText) {
                 <input id="busfare" type="text" name="busfare" placeholder="Bus Ticket" readonly>
               </div>
                 <div class="field">
-                <input type="text" name="zooticket" placeholder="Zoo Ticket" required>
+                <input id="zooticket" type="text" name="zooticket" placeholder="Zoo Ticket" readonly>
               </div>
               <div class="field">
                 <button type="submit">Submit</button>
@@ -363,11 +383,12 @@ function showInfo(responseText) {
   </div>
   <script>
     
-    //default values for capital, currency, airfare and busfare 
+    //default values for capital, currency, airfare and busfare and zooticket
      $('#capital').val(capitals[$('#country').val()])
      $('#currency').val(currencies[$('#country').val()])   
      $('#airfare').val(airfare[$('#country').val()])  
-     $('#busfare').val(busfare[$('#country').val()])     
+     $('#busfare').val(busfare[$('#country').val()])  
+     $('#zooticket').val(zooticket[$('#country').val()])  
     
     //below code creates a button which help the user to navigate in to the google map
 
