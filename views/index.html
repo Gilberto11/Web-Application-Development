@@ -62,6 +62,7 @@
   <script src="/js/jquery.min.js"></script>
   <script src="/js/bootstrap.min.js"></script>
   <script>
+    //Functionality to add countries to the XML table through to the HTML form
       function draw_table() {
         $("#results").empty();
         $.getJSONUncached = function(url) {
@@ -77,7 +78,7 @@
         };
         $.getJSONUncached("/get/html")
       }
-    
+    //Functionality for selecting a row in the XML table.
       function select_row() {
         $("#table tbody tr").click(function() {
           $(".selected").removeClass("selected");
@@ -86,7 +87,7 @@
           delete_row($row);
         })
       };
-    
+    //Functionality for deleting a row when clicked a delete button. 
       function delete_row(row_val) {
         $("#delete").click(function() {
           $.ajax({
@@ -142,11 +143,14 @@ Package booking - Your package will include accommodation, overland transport su
 
 Value for money – You can take local tours as part of a small group, or on a private basis.  You can also choose from accommodation options ranging from family run B and Bs to luxury hotels.  We will help you get the most out of your budget for your trip.<b/>
       </p>
+     
     </div>
+    
     <div style="margin-bottom: 20px; margin-top: 20px; padding: 20px;">
 <button class="button" onclick="toggleInfo()">More info</button>
       <p style="background-color: rgba(255,255,255,0.4); padding: 20px; border-radius: 8px;" id="moreInfo"></p>
-<script>
+<script> //Created a button to give more information about the website
+  
   var infoIsVisible = false;
   function toggleInfo(){
     if(infoIsVisible){
@@ -299,6 +303,7 @@ function showInfo(responseText) {
   
   
 </script>
+      
       </div>
     <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
     <div class="row">
